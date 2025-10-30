@@ -102,7 +102,7 @@ function PartnershipPage() {
 
         <section className="py-16 px-6">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold text-center mb-12">Partnership Categories</h2>
+            <h2 className="text-5xl font-bold text-center mb-12">Partnership Categories</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
               {categories.map((cat, idx) => (
                 <div key={idx} className="bg-gradient-to-br from-gray-50 to-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
